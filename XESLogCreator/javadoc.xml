@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="/Users/emanuelnae/Desktop/BSC/mysql-connector-java-5.1.0/mysql-connector-java-5.1.0-bin.jar:/Users/emanuelnae/Desktop/BSC/eclipse/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100/junit.jar" destdir="doc" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="main" source="1.5" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="1849.2016" xes.features="">
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<global scope="trace">
+		<string key="concept:instance" value="UNKNOWN"/>
+	</global>
+	<global scope="event">
+		<int key="InstanceId" value="UNKNOWN"/>
+		<int key="ScopeId" value="UNKNOWN"/>
+		<string key="concept:name" value="UNKNOWN"/>
+		<string key="EventId" value="UNKNOWN"/>
+		<string key="lifecycle:transition" value="UNKNOWN"/>
+		<date key="time:timestamp" value="1970-01-01 00:00:00.0"/>
+	</global>
+	<classifier name="(Name AND Transition)" keys="concept:name lifecycle:transition"/>
+	<trace>
+		<string key="concept:instance" value="4751"/>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="WithdrawRequest"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4855"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="InputPINandAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4857"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="InputPINandAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4864"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="CheckPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4866"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="CorrectPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4869"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="CheckAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4871"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="AmountExceeded"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4874"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="ReplyToClient"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4880"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="ReplyToClient"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4883"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="AmountExceeded"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4884"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="CheckAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4885"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="CorrectPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4886"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="CheckPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4887"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4751"/>
+			<int key="ScopeId" value="4801"/>
+			<string key="concept:name" value="WithdrawRequest"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4888"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:17:26.0"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="PIN" value="1234"/>
+		<string key="Amount" value="100"/>
+		<string key="concept:instance" value="4752"/>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="WithdrawRequest"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4896"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="InputPINandAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_4898"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="InputPINandAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5005"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="CheckPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5007"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="IncorrectPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5010"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="ReplyToClient"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5016"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="ReplyToClient"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5019"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="IncorrectPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5020"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="CheckPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5021"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4752"/>
+			<int key="ScopeId" value="4802"/>
+			<string key="concept:name" value="WithdrawRequest"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5022"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:46.0"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="PIN" value="0000"/>
+		<string key="Amount" value="100"/>
+		<string key="concept:instance" value="4753"/>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="WithdrawRequest"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5030"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="InputPINandAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5032"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="InputPINandAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5039"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="CheckPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5041"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="CorrectPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5044"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="CheckAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5046"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="AmountOk"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5049"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="ReplyToClient"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5055"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="ReplyToClient"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5058"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="AmountOk"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5059"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="CheckAmount"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5060"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="CorrectPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5061"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="CheckPIN"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5062"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+		<event>
+			<string key="ATMWithdrawalProcessId" value="ATMWithdrawalProcess_4753"/>
+			<int key="ScopeId" value="4803"/>
+			<string key="concept:name" value="WithdrawRequest"/>
+			<string key="EventId" value="ATMWithdrawalProcessState_5063"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2021-09-03 10:19:56.0"/>
+		</event>
+	</trace>
+</log>
