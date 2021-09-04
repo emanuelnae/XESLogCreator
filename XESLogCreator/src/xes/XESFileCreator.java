@@ -89,7 +89,9 @@ public class XESFileCreator {
 				
 				/**
 				 * <p>
+				 * <b>Extra functionality</b>
 				 * <i>Specific to the ATM Withdrawal process!<i>
+				 * Comment out the next 4 lines.
 				 * <p>
 				 */
 				+ addTabs(2)

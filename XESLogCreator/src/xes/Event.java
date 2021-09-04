@@ -117,7 +117,8 @@ public class Event {
 	 * obtained.
 	 * <p>
 	 * <b>Extra functionality</b>
-	 * <i>Specific to the ATM Withdrawal process!<i>
+	 * <i>Specific to the ATM Withdrawal process!</i>
+	 * Does not require commenting for the application to run without this functionality.
 	 * <p>
 	 * @param resultSet
 	 *            the result set being used

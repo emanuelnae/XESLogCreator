@@ -23,7 +23,6 @@ import static xes.Event.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
@@ -105,15 +104,15 @@ public class XESEventWriter {
 	 * @throws SQLException
 	 *             if cannot retrieve result set
 	 */
-	public static void writeTrace(FileWriter fwrite, ResultSet rs)
+	public static void writeTrace(FileWriter fwrite)
 			throws IOException, SQLException {
-		readProcessInput(rs);
 		String string = addTabs(1)
 				+ beginTrace()
 				
 				/**
 				 * <b>Extra functionality</b>
 				 * <i>Specific to the ATM Withdrawal process!</i>
+				 * Comment out the next 4 lines.
 				 */
 				+ addTabs(2)
 				+ addKey("string", "PIN", inputPin)

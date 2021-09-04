@@ -104,6 +104,7 @@ public class MySQLConnection {
 	 * 
 	 * <p>
 	 * <b> Extra functionality </b>
+	 * Does not require commenting for the code to run without this functionality.
 	 * <p>
  	 * 
 	 * @param messageExchangeId

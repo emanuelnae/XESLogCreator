@@ -96,10 +96,12 @@ public class EventLogGenerator {
 
 			/**
 			 * <b>Extra functionality</b>
+			 * Comment out the next two lines.
 			 */
 			messageDataSet = getMessageDataSet(getEventMessageExchangeId());
+			readProcessInput(messageDataSet);
 
-			writeTrace(fileWriter, messageDataSet);
+			writeTrace(fileWriter);
 
 			while (eventDataSet.next()) {
 				readEvent(eventDataSet);
@@ -111,10 +113,12 @@ public class EventLogGenerator {
 					
 					/**
 					 * <b>Extra functionality</b>
-					 * Retrieval based on the event's message exchange id
+					 * Comment out the next two lines.
 					 */
 					messageDataSet = getMessageDataSet(getEventMessageExchangeId());
-					writeTrace(fileWriter, messageDataSet);
+					readProcessInput(messageDataSet);
+					
+					writeTrace(fileWriter);
 				}
 
 				/* Filter the unwanted events */
